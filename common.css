@@ -233,6 +233,35 @@ div.main-footer table.blocks td.box.facebook div.box-content div.label {
     min-height: 40px;
 }
 
+div.main-footer table.blocks td.box.facebook-like {
+    background-color: #46a;
+}
+
+div.main-footer table.blocks td.box.facebook-like div.box-content {
+    position: relative;
+}
+
+div.main-footer table.blocks td.box.facebook-like div.box-content div.like-button-container {
+    display: block;
+    width: 44px;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+}
+
+div.main-footer table.blocks td.box.facebook-like div.box-content div.text {
+    margin-left: 52px;
+    min-height: 40px;
+}
+
+div.main-footer table.blocks td.box.facebook-like div.box-content div.text div.find-us {
+    font-weight: bold;
+}
+
+div.main-footer table.blocks td.box.facebook-like div.box-content div.text div.link a {
+    color: white;
+}
+
 div.main-footer div.copyright {
     margin-top: 15px;
     color: #888;
@@ -244,7 +273,6 @@ div.main-footer div.copyright a {
     color: #888;
     text-decoration: underline;
 }
-
 
 
 /* main content columns */
