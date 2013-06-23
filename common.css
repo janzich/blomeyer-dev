@@ -120,6 +120,13 @@ div.main-header ul.main-menu li a.active {
 }
 
 
+/* content */
+
+div.main-content {
+    padding: 15px;
+}
+
+
 /* footer */
 
 div.main-footer {
@@ -215,14 +222,12 @@ div.main-footer table.blocks td.box.facebook div.box-content div.label {
 
 table.regular-page-layout {
     border-collapse: collapse;
-    margin-top: 20px;
 }
 
 td.regular-page-sidebar {
     vertical-align: top;
     border-right: 2px solid #eee;
     width: 200px;
-    padding-left: 20px;
     padding-right: 20px;
 }
 
@@ -262,122 +267,140 @@ td.regular-page-main-column {
 }
 
 
-/* homepage content columns */
+/* homepage top welcome block */
 
-table.homepage-layout {
-    border-collapse: collapse;
-    margin-top: 20px;
+div.homepage-welcome-block {
+    position: relative;
+    height: 270px;
 }
 
-td.homepage-sidebar {
-    vertical-align: top;
-    border-right: 2px solid #eee;
-    width: 280px;
-    padding-left: 20px;
-    padding-right: 20px;
+div.homepage-welcome-block img.cover-photo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
-td.homepage-main-column {
-    padding-left: 20px;
-    padding-right: 20px;
-    vertical-align: top;
+div.homepage-welcome-block div.text {
+    position: absolute;
+    left: 295px;
+    top: 0px;
 }
 
-
-/* homepage sidebar */
-
-div.homepage-welcome-block div.image {
-    margin-bottom: 1em;
-}
-
-div.homepage-welcome-block div.image img {
-    vertical-align: bottom;
-}
-
-div.homepage-welcome-block div.title1 {
+div.homepage-welcome-block div.text div.title1 {
     font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;
-    font-size: 16px;
+    font-size: 1.5em;
 }
 
-div.homepage-welcome-block div.title2 {
+div.homepage-welcome-block div.text div.title2 {
     font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;
-    font-size: 28px;
+    font-size: 2em;
     color: #c22;
 }
 
-div.homepage-welcome-block div.intro {
+div.homepage-welcome-block div.text div.intro {
     margin-bottom: 1em;
-    font-size: 12px;
     color: #666;
 }
 
-
-/* homepage-photos */
-
-div.homepage-photos {
-    margin-top: 1.5em;
+div.homepage-welcome-block div.photos {
+    position: absolute;
+    left: 295px;
+    top: 142px;
 }
 
-div.homepage-photos div.title {
-    font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-}
-
-div.homepage-photos table.photos {
+div.homepage-welcome-block div.photos table.photos {
     border-collapse: collapse;
 }
 
-div.homepage-photos table.photos td.photo {
-    padding-right: 8px;
-    padding-bottom: 8px;
+div.homepage-welcome-block div.photos table.photos td.photo {
+    padding-right: 10px;
 }
 
-div.homepage-photos table.photos td.photo:last-child {
+div.homepage-welcome-block div.photos table.photos td.photo:last-child {
     padding-right: 0px;
 }
 
-div.homepage-photos table.photos tr:last-child td.photo {
-    padding-bottom: 0px;
-}
-
-div.homepage-photos table.photos td.photo a {
+div.homepage-welcome-block div.photos table.photos td.photo a {
     display: block;
     background-color: #222;
-    width: 136px;
-    height: 100px;
+    width: 144px;
+    height: 108px;
 }
 
-div.homepage-photos div.see-more {
+div.homepage-welcome-block div.photos div.see-more {
     margin-top: 0.5em;
     text-align: right;
     font-size: 12px;
 }
 
 
-/* homepage events */
+/* homapage news and updates columns */
 
-div.homepage-events {
+div.homepage-events-and-udpates-block {
+    margin-top: 15px;
+    border-top: 2px solid #eee;
+    padding-top: 15px;
 }
 
-div.homepage-events div.event {
-    margin-left: 50px;
+div.homepage-events-and-udpates-block table.homepage-events-and-udpates-block {
+    border-collapse: collapse;
+}
+
+div.homepage-events-and-udpates-block td.events-column {
+    vertical-align: top;
+    width: 429px;
+    padding-right: 15px;
+    border-right: 2px solid #eee;
+}
+
+div.homepage-events-and-udpates-block td.updates-column {
+    vertical-align: top;
+    width: 429px;
+    padding-left: 15px;
+}
+
+div.homepage-events-and-udpates-block h2 {
+    color: #222;
+    margin-top: 0px;
+}
+
+div.homepage-events-and-udpates-block div.items {
+}
+
+div.homepage-events-and-udpates-block div.items div.item {
+    position: relative;
     margin-top: 1em;
-    /*border-bottom: 1px solid #eee;*/
+    padding-left: 45px;
 }
 
-div.homepage-events div.event div.title {
-    /*font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;*/
-    /*font-size: 1.2em;*/
+div.homepage-events-and-udpates-block div.items div.item span.icon {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url(images/icons.png);
+}
+
+div.homepage-events-and-udpates-block td.events-column div.items div.item span.icon {
+    background-position: 0px 0px;
+}
+
+div.homepage-events-and-udpates-block td.updates-column div.items div.item span.icon {
+    background-position: -24px 0px;
+}
+
+div.homepage-events-and-udpates-block div.items div.item div.title {
     color: #c22;
     font-weight: bold;
 }
 
-div.homepage-events div.event div.date {
+div.homepage-events-and-udpates-block div.items div.item div.date {
     font-weight: bold;
     display: inline;
 }
 
-div.homepage-events div.event div.description {
+div.homepage-events-and-udpates-block div.items div.item div.description {
     display: inline;
 }
