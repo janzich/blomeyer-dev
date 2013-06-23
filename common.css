@@ -1,4 +1,15 @@
-/* commong stuff */
+/* Viga */
+
+@font-face {
+    font-family: Viga;
+    font-style: normal;
+    font-weight: bold;
+    src: url(fonts/viga.eot);
+    src: url(fonts/viga.eot) format("embedded-opentype"), url(fonts/viga.woff) format("woff");
+}
+
+
+/* common stuff */
 
 body {
     margin: 0px;
@@ -16,7 +27,6 @@ body {
 
 h1, h2, h3 {
     font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;
-    font-weight: normal;
 }
 
 h1 {
@@ -93,6 +103,7 @@ div.main-header ul.main-menu {
     padding: 0px;
     position: absolute;
     font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;
+    font-weight: bold;
 }
 
 div.main-header ul.main-menu li {
@@ -288,11 +299,13 @@ div.homepage-welcome-block div.text {
 
 div.homepage-welcome-block div.text div.title1 {
     font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;
+    font-weight: bold;
     font-size: 1.5em;
 }
 
 div.homepage-welcome-block div.text div.title2 {
     font-family: Viga, Helvetica, Arial, Verdana, sans-serif, sans-serif;
+    font-weight: bold;
     font-size: 2em;
     color: #c22;
 }
