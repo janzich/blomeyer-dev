@@ -54,6 +54,10 @@ div.main-wrapper {
     background-color: white;
 }
 
+blockquote {
+    font-style: italic;
+}
+
 
 /* header */
 
