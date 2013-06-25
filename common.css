@@ -112,11 +112,12 @@ div.main-header ul.main-menu {
 }
 
 div.main-header ul.main-menu li {
-    display: inline-block;
+    display: block;
+    float: left;
 }
 
 div.main-header ul.main-menu li a {
-    display: inline-block;
+    display: block;
     line-height: 1;
     font-size: 16px;
     padding: 11px 9px 12px 9px;
