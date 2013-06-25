@@ -253,6 +253,7 @@ div.main-footer table.blocks td.box.facebook-like div.box-content div.like-butto
 div.main-footer table.blocks td.box.facebook-like div.box-content div.text {
     margin-left: 52px;
     min-height: 40px;
+    min-height: 62px;
 }
 
 div.main-footer table.blocks td.box.facebook-like div.box-content div.text div.find-us {
